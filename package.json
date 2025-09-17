@@ -11,8 +11,12 @@
     "dev:watch": "nodemon server.ts",
     "dev:stream": "nodemon src/v1/stream/streams.ts",
     "dev:worker": "nodemon src/v1/worker-thread/workerThread.ts",
-    "dev:child": "nodemon src/v1/child-process/main.ts"
+    "dev:process": "nodemon src/v1/process/main.ts",
+    "dev:event": "nodemon src/v1/event-emitter/main.ts",
+    "dev:v8engine": "nodemon src/v1/v8-engine/main.ts",
+    "dev:buffer": "nodemon src/v1/buffer/main.ts"
   },
+  "type": "module",
   "dependencies": {
     "express": "^4.18.2",
     "multer": "^2.0.2",
